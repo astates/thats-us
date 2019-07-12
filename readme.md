@@ -20,6 +20,7 @@ Frumbledingle Corp is struggling with its warehouse management, and has been loo
 - Any other **cool stuff** you want to add after completing the requirements here will be taken into consideration.
 
 ## Setup Instructions
+- REQUIRED: `php`, `git`, `composer`, `mysql`, `node`, `npm`
 - `git clone` this repo
 - Run `composer install`
 - Make sure to set the database information your `.env` file
