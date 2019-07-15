@@ -40,7 +40,7 @@ The data for this application will be defined as below. Migrations have already 
 
 ### Categories
 - Columns: ID, Name, Parent ID
-- A *category* has many *items* and **may** have a parent *category*
+- A *category* has many *items* and **may** belong to a parent *category*
 
 ## The Final Battle
 After making the pages for individual models work, you will need to create a report page. This page must include a price input, and should give a list of all categories for each location (including the parent category name), and the number of items greater or equal to that price in that category/location pairing.
