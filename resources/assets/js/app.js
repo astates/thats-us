@@ -9,6 +9,12 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+Vue.component('reports-table', require('./components/ReportsTable.vue'));
+
+Vue.component('items-table', require('./components/ItemsTable.vue'));
+
+Vue.component('categories-table', require('./components/CategoriesTable.vue'));
+
 Vue.component('locations-table', require('./components/LocationsTable.vue'));
 
 new Vue({el: '#app-container'});

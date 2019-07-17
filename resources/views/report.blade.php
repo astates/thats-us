@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('page_title')
-    Locations
+    Reports
 @endsection
 
 @section('content')
-<locations-table></locations-table>
+<reports-table></reports-table>
 @endsection

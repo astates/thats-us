@@ -9,6 +9,7 @@ class LocationController extends Controller
 {
     public function index()
     {
-        return view('locations');
+        $location = Location::all();
+        return view('locations')->with('location', $location);
     }
 }
